@@ -1,0 +1,88 @@
+body
+{
+  font-family: 'Rammetto One', cursive;
+  font-size: 15px;
+  line-height: 1.5;
+  background-color: #f4f4f4;
+}
+header
+{
+  background: #35424a;
+  color: #ffffff;
+  padding-top: 30px;
+  padding-left: 0px;
+  min-height: 70px;
+  border-bottom: #e8419d 3px solid;
+}
+
+header a
+{
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+
+}
+header ul
+{
+  margin: 0;
+  padding: 0;
+}
+header li
+{
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+header #branding
+{
+  float:left;
+}
+header #branding h1
+{
+  margin: 0px;
+}
+header .nav
+{
+  float: right;
+  margin-top:10px;
+}
+header #tag, header .current a
+{
+  color:#e8491d;
+  font-weight: bold;
+}
+header a:hover
+{
+  color: blue;
+  font-weight: bold;
+  background: white;
+  width: 200px;
+}
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */

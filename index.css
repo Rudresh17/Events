@@ -1,0 +1,182 @@
+body
+{
+  font-family: 'Rammetto One', cursive;
+  font-size: 15px;
+  line-height: 1.5;
+  background-color: #f4f4f4;
+}
+
+.button
+{
+    position: relative;
+    background-color: #4CAF50;
+    border: none;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding: 20px;
+    width: 100px;
+    text-align: center;
+
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+
+}
+.button:hover
+{
+    width: 200px;
+
+}
+ul
+{
+  margin: 0;
+  padding: 0;
+}
+.container
+{
+  width:98%;
+  margin: auto;
+  overflow: hidden;
+
+}
+
+header
+{
+  background: #35424a;
+  color: #ffffff;
+  padding-top: 30px;
+  padding-left: 0px;
+  min-height: 70px;
+  border-bottom: #e8419d 3px solid;
+}
+
+header a
+{
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+
+}
+header ul
+{
+  margin: 0;
+  padding: 0;
+}
+header li
+{
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+header #branding
+{
+  float:left;
+}
+header #branding h1
+{
+  margin: 0px;
+}
+header .nav
+{
+  float: right;
+  margin-top:-60px;
+}
+header #tag, header .current a
+{
+  color:#e8491d;
+  font-weight: bold;
+}
+header a:hover
+{
+  color: blue;
+  font-weight: bold;
+  background: white;
+  width: 200px;
+}
+#showcase
+{
+  min-height: 400px;
+  background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0, 0, 0, 0.8)),url("images/showcase1.jpg");
+
+
+  background-position: center;
+  text-align: center;
+  background-size: cover;
+  color: white;
+}
+#showcase h1
+{
+  margin-top: 100px;
+  font-size: 55px;
+  margin-bottom: 10px;
+  font-family: 'Roboto', sans-serif;
+}
+#showcase p
+{
+  font-size: 30px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: bold;
+}
+#newsletter
+{
+  font-family: 'Fjalla One', sans-serif;
+  padding: 15px;
+  color: white;
+  background: #35424a;
+  font-size: 20px;
+
+}
+#newsletter h1
+{
+  float: left;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 25px;
+}
+#newsletter form
+{
+  float: right;
+  margin-top: 15px;
+
+}
+#newsletter input[type=email]
+{
+  padding: 4px;
+  height:25px;
+  width: 250px;
+
+}
+#boxes
+{
+  margin-top: 20px;
+  font-family: 'Nanum Myeongjo', serif;
+  font-size: 20px;
+
+}
+#boxes .box
+{
+  float: left;
+  text-align: center;
+  width: 30%;
+  padding: 10px;
+}
+#boxes p
+{
+  font-family: 'Acme', sans-serif;
+  color: green;
+}
+footer
+{
+  padding: 9px;
+  margin-top: 20px;
+  color: white;
+  background:#e8491d;
+  text-align: center;
+}
+#branding img
+{
+  float: left;
+  height: 25%;
+  width: 25%;
+  max-width: 30%;
+}
